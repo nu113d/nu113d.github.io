@@ -6,3 +6,5 @@ clean:
 
 run: 
 	hugo server --disableFastRender -D
+pull: 
+	git pull && git submodule update --remote --merge
