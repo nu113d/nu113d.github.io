@@ -1,0 +1,8 @@
+build:
+	hugo --minify
+
+clean: 
+	rm -r public
+
+run: 
+	hugo server --disableFastRender -D
