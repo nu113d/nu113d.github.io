@@ -1,0 +1,71 @@
+baseURL = 'https://nu113d.github.io'
+languageCode = 'en-us'
+title = 'nu113d.blog'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "Vaggelis Stoikos personal blog"
+paginationSize = 100
+hidePagination = true
+listSummaries = true
+# listDateFormat = '2002-04-16'
+
+
+# Appearance settings
+theme = 'dark'
+colorPalette = 'gruvebox'
+hideHeader = true
+
+# Intro on main page, content is markdown
+# homeIntroTitle = 'Hi!'
+homeIntroContent = """
+$ whoami 
+
+Hi, I'm nu113d, a Computer Science graduate and I currently work as a Software Engineer. 
+With a wide interest in computers, cybersecurity and electronics, I decided to blog about exciting things I dive into and research.
+Don't expect a big number of posts or any consistency in topics. It's gonna be a way to express myself and my passion.
+I hope you find my posts as interesting as I do!
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://linkedin.com/in/vaggelis-stoikos-a45121224"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/nu113d"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "readme"
+url = "/readme"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'emacs'
+
