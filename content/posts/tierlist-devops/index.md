@@ -34,7 +34,7 @@ Rancher is basically a UI for Kubernetes. You can create any k8s resource possib
 ### Terraform
 Terraform is a IaC tool that creates cloud infrastructure with scripts. I've personally used it with Azure cloud, but Azure aside, it's relatively simple to setup and even simpler to learn with the excellent documentation.
 
-### Opensearch & Grafana
+### Opensearch and Grafana
 OpenSearch, OpenSearch Dashboards, and Grafana together form by far the best open-source stack for analyzing logs and monitoring a system. OpenSearch delivers fast, scalable search and log analytics, OpenSearch Dashboards gives you powerful built-in visualizations, and Grafana adds dashboards, alerting, and the ability to correlate logs with metrics and traces, all in one cohesive and customizable platform.
 
 ### Docker
