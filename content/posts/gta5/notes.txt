@@ -1,0 +1,17 @@
+dev_ng\multiplayer\include\public\net_cash_transactions.sch
+VALIDATE_CASH_TRANSACTION_SUCCESS_RESULT //Used to check for modders. If not validated, the player is kicked
+
+dev_ng\multiplayer\include\public\net_car_value.sch
+GET_REPAIR_COST_FOR_CAR //Calculates repair cost based on the value of the car times the value of each damaged part (percent of the total car value)
+
+dev_ng\singleplayer\include\private\beast_secret_shared.sch
+Maintain_Beast_Cheating_Check() //Checks for the player cheating against the beast. applies damage 2 times to the player. If health is not reducing it's cheating
+Is_Player_In_Bad_Hunt_Vehicle() //Player cannot hunt if they are in DILETTANTE or VOLTIC vehicle
+
+dev_ng\singleplayer\include\private\beast_secret_fight.sch
+If the player is cheating it pushes the player away from the beast when it's sound is played, drops player's health to half and lower, increases the stun range of the player and resets beast's health
+beast's health: 100.000
+player's melee damage: 150
+
+dev_ng\core\common\script_maths.sch
+Bitfield constants (interesting)
