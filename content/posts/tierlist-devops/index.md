@@ -53,7 +53,7 @@ Moreover, it's Groovy integration is another obstacle for writing pipelines. Gro
 (Fun fact: a private method in Groovy is never private and can be called from anywhere. It's a [bug](https://issues.apache.org/jira/browse/GROOVY-1875) that is open since 2007 and won't be fixed!)
 
 ### Maven
-Maven's philosophy with depenencies and artifacts is great. But I hate `pom.xml`. Actually, I hate XML's in general. We're not in 2006 anymore. Nevetheless, it's not hard to master.
+Maven's philosophy with depenencies and artifacts is great. But I hate `pom.xml`. Actually, I hate XML's in general. Nevetheless, it's not hard to master.
 
 ### Postgresql
 PostgreSQL is a solid relational database that powers many production systems. That said, it often feels heavier than necessary for a lot of modern workloads. Configuration, replication, and performance tuning can become time-consuming, and scaling it horizontally still requires expertise.

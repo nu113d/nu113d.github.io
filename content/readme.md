@@ -13,3 +13,5 @@ Hi, my name is Vaggelis Stoikos, a guy who loves science but slightly more inter
 - Programming languages: Java, C, Python
 - Software: Kubernetes, Docker, Ansible, Java/Maven, Jenkins, GNU/Linux, Ghidra, Android studio
 - Interests: Computers, Electronics, Cybersecurity, Research, Physics
+
+![me.png](./me.jpg)
